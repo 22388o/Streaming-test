@@ -1,0 +1,47 @@
+/* Variables */
+:root {
+  --color-red: #F9364E;
+  --color-green: #3ABFA1;
+  --color-pink: #FFA0AC;
+
+  --color-grey: #999999;
+  --color-white: #FFFFFF;
+  --color-off-white: #F5F5F5;
+  --color-font-black: #333333;
+  --color-off-black: #222222;
+}
+
+/* Reset */
+html, body, div, span, a, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+
+/* Styles */
+body {
+  color: var(--color-font-black);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", sans-serif;
+  letter-spacing: -0.04rem;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  cursor: default;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  background: var(--color-off-black);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
